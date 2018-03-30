@@ -1,0 +1,10 @@
+<h1>This is API-3 to calculate the mean of metabolites</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    Do you want to calculate the mean of metabolites having same retention time round-off ?<br>
+    <input type="radio" name="mean" value="yes"/>YES
+    <input type="radio" name="mean" value="no"/>NO
+    <br>
+    <input type="submit" value="Submit"/>
+</form>

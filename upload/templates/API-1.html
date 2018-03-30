@@ -1,0 +1,17 @@
+<h1>This is API -1 to make 3 child datasets</h1>
+
+<form action="api1/" method="post">
+    {% csrf_token %}
+    Do you want to create childdatasets ?<br>
+    <input type="radio" name="childset" value="yes"/>YES
+    <input type="radio" name="childset" value="no"/>NO
+    <br>
+    <input type="submit" value="Submit"/>
+
+</form>
+
+<form action="api1/api2/" method ='post'>
+    {% csrf_token %}
+    Click hear to go to API-2
+    <input type="submit" value="API-2"/>
+</form>

@@ -1,0 +1,16 @@
+<h1>This Is API-2 to calculate Retention time round-off</h1>
+
+<form action="" method="post">
+    {% csrf_token %}
+    Do you want to round-off retention time ?<br>
+    <input type="radio" name="roundoff" value="yes"/>YES
+    <input type="radio" name="roundoff" value="no"/>NO
+    <br>
+    <input type="submit" value="Submit"/>
+</form>
+
+<form action="api3/" method ='post'>
+    {% csrf_token %}
+    Click hear to go to API-3
+    <input type="submit" value="API-3"/>
+</form>
